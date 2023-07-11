@@ -1,0 +1,20 @@
+{
+  "name": "React",
+  "id": "react",
+  "version": 1,
+  "src": "main.mo",
+  "init_arg": [
+    "memory_react"
+  ],
+  "func": {
+    "react_hello_world": {
+      "type": "update",
+      "async": false
+    }
+  },
+  "memory": {
+    "react": {
+      "version": 1
+    }
+  }
+}
