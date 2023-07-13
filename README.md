@@ -8,6 +8,10 @@
 - public/static/icon.png (your app icon)
 - package.json scripts added
 
+# Package
+
+`npm run package` will produce react.v1.neutron file. Install it in Neutron
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
