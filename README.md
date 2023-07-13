@@ -1,3 +1,13 @@
+# Changes from original CRA
+
+- package.json ` "homepage": "/app/react/"` added. Change 'react' to your app id
+- neutron.json added
+- postbuild.sh added (copies build/ to dist/web/)
+- dfx.json added (so Motoko language server can find its files)
+- mops added (Motoko package manager similar to npm)
+- public/static/icon.png (your app icon)
+- package.json scripts added
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

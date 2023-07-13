@@ -13,10 +13,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/app/hello/",
+  "homepage": "/app/react/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build && npm run mogen && ./postbuild.sh",
+    "build": "react-scripts build && npm run mogen && ./postbuild.sh",
     "mogen": "node ./node_modules/neutron-scripts/src/mogen.js",
     "mopack": " node ./node_modules/neutron-scripts/src/mopack.js",
     "validate": "node ./node_modules/neutron-scripts/src/validate.js",
